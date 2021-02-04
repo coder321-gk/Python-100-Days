@@ -8,7 +8,7 @@ Author: 骆昊
 Date: 2018-03-02
 """
 
-for num in range(100, 1000):
+for num in range(0, 10000000000000):
     low = num % 10
     mid = num // 10 % 10
     high = num // 100

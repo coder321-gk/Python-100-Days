@@ -22,8 +22,10 @@ print(hex(ord('骆')))
 print(abs(-1.2345))
 print(round(-1.2345))
 print(pow(1.2345, 5))
-fruits = ['orange', 'peach', 'durian', 'watermelon']
+fruits = ['orange', 'peach', 'durian', 'watermelon']  # slice() 函数实现切片对象，主要用在切片操作函数里的参数传递。
 print(fruits[slice(1, 3)])
 fruits2 = list(filter(myfilter, fruits))
+fruits3 = list(filter(lambda x: len(x) == 5, fruits))
 print(fruits)
 print(fruits2)
+print(fruits3)
